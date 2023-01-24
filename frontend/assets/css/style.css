@@ -1,0 +1,89 @@
+
+/* Nav section */
+nav {
+   padding:1rem;
+   background-color: white;;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+h1 {
+    margin-bottom: 0;
+}
+sub {
+    font-size: 1rem;
+}
+
+#logo {
+    color:var(--primary-color);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+nav a {
+    color:black;
+    padding: 0 1rem;
+}
+
+
+/* Home */
+.bg-train {
+    background-image:url("../images/background.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+input {
+    background-color: var(--light-background);
+    border:0;
+    font-size:1rem;
+    padding: 10px;
+   
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    padding: 1.3rem;
+}
+
+.card.search {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+#btn-search {
+    padding: .5rem;
+}
+
+.card.result {
+}
+
+.card.result img {
+    width: 180px;
+}
+
+
+
+/* Cart */
+
+#bookings, #cart {
+    width: 600px
+}
+
+.trip {
+    padding: .6rem;
+    font-size: .8rem;
+    margin-top: 10px;
+}
+
+
+.bottom-cart {
+    padding: 0 3rem;
+}
+#purchase {
+    padding: .2rem .8rem;
+}

@@ -61,9 +61,3 @@ Pensez à utiliser un fichier .env pour gérer les informations liées à la con
 ## Authors
 
 - [Brice Eliasse](https:/brice-eliasse.com)
-
-
-## Badges
-
-Add badges from somewhere like: [shields.io](https://shields.io/)
-

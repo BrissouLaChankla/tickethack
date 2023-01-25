@@ -23,24 +23,24 @@
 
       <div class="container d-flex align-items-center justify-content-between mt-5">
         <div class="bg-white card search rounded">
-          <input type="text" class="rounded-small" placeholder="Departure" name="" id="">
-          <input type="text" class="rounded-small" placeholder="Arrival" name="" id="">
-          <input type="date" class="mt-3" name="" id="">
+          <input type="text" class="rounded-small" value="Marseille" placeholder="Departure" id="departure">
+          <input type="text" class="rounded-small" value="Lyon" placeholder="Arrival" id="arrival">
+          <input type="date" class="mt-3" id="date">
           <div id="btn-search" class="bg-primary text-white text-center rounded-small mt-auto pointer">Search</div>
         </div>
 
         <div class="bg-white card result rounded d-flex align-items-center justify-content-center ">
-          <div class="text-center">
-            <img src="assets/images/train.png" alt="">
+          <div id="trips" class="text-center ">
+            <img src="assets/images/train.png" id="result-img" alt="">
             <hr>
-            <p>It's time to book your future trip.</p>
+            <p id="result-txt">It's time to book your future trip.</p>
           </div>
         </div>
 
       </div>
     </main>
 
-  <script src="assets/js/script.js"></script>
+  <script src="assets/js/index.js"></script>
   <script src="assets/js/load-components.js"></script>
 </body>
 </html>

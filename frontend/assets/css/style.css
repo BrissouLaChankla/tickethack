@@ -60,6 +60,7 @@ input {
 }
 
 .card.result {
+    overflow: auto;
 }
 
 .card.result img {
@@ -67,17 +68,31 @@ input {
 }
 
 
+.book {
+    padding: 5px 8px;
+}
+
+.delete {
+    padding: .3rem .6rem;
+}
 
 /* Cart */
 
 #bookings, #cart {
     width: 600px
 }
+#trips {
+    flex-grow: 1;
 
+}
 .trip {
     padding: .6rem;
     font-size: .8rem;
     margin-top: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
